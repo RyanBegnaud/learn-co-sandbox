@@ -1,0 +1,8 @@
+counter = 1
+array = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
+def assign_rooms(array, counter)
+ hash = Hash.new
+%w(cat dog wombat).each_with_index { |array, index|
+  hash[array] = index
+}
+hash   
